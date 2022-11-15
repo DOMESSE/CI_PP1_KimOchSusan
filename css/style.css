@@ -1,4 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
 body {
     font-family: Arial,Helvetica,sans-serif;
     font-size: 1em;
+}
+
+p {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+title {
+    text-align: center;
 }
