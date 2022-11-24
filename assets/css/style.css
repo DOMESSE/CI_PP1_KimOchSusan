@@ -1,4 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+@media screen and (min-width: 375px) {
+   
+  }
+@media screen and (min-width: 650px) {
+   
+}
+@media screen and (min-width: 800px) {
+   
+}
+@media screen and (min-width: 1000px) {
+   
+}
 
 body {
     /* Credit Alessia Kozek, website is Pexels */
