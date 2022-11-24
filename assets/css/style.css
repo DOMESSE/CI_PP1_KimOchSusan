@@ -52,6 +52,17 @@ nav {
     margin-left: 12em;
 }
 
+
+#googlemap {
+    float: right;
+    display: flex;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    width: 75%;
+    height: 45%;
+}
+
 a:link {
     text-decoration: none;
     color:orange
