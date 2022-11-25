@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro');
 @media screen and (min-width: 375px) {
-   
+    .navbar a {
+        float: none;
+        display: block;
+      }
   }
 @media screen and (min-width: 650px) {
-   
+    .navbar a {
+        float: none;
+        display: block;
+      }
 }
 @media screen and (min-width: 800px) {
    
@@ -23,12 +29,16 @@ body {
 }
 
 h1 {
-    margin-bottom:0.2%;
     text-align: center;
     color: rgb(24, 137, 4);
+    display: flex;
+    position: relative;
+    top: 9%;
+    left: 48%;
+    width: 50%;
     font-weight: bolder;
     text-shadow: 1.5px 1.5px wheat;
-    font-size: 3.25em;
+    font-size: 2.25em;
 
 }
 
@@ -36,16 +46,20 @@ p {
     background-image: url("../images/pexels-pixabay-301378.jpg");
     text-align: center;
     display: flex;
-    position: absolute;
+    position: relative;
+    float: right;
     font-size: 1.55em;
-    top: 40%;
-    left: 66%;
+    bottom: 5%;
+    right: 18%;
     width: 20%;
     height: 25%;
+    margin-top: 25%;
     max-height: min-content;
     color:yellowgreen;
+    text-shadow: 1.5px 1.5px black;
     background-size: contain;
-    overflow: hidden;
+    border-radius: 0.25em;
+    border:2px solid rgb(41, 27, 1) ;
 }
 
 #logo {
@@ -57,28 +71,12 @@ p {
     height: 5%;
 }
 
-p:hover {
-    overflow: visible;
-}
-
-#hoverprompt {
-    display: flex;
-    position: absolute;
-    text-align: center;
-    top: 40%;
-    left: 71%;
-    width: 20%;
-    height: 25%;
-    color: rgb(24, 137, 4);
-    font-weight: bolder;
-}
-
 nav {
     /* Credit FWstudio, website is Pexels */
-    background-image: url("../images/pexels-pixabay-301378.jpg");
+    background-image: url("../images/composite.png");
     margin-top: -0.6%;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 2em;
     background-size: contain;
     padding-top: 0.25em;
     padding-bottom: 0.25em;
@@ -95,11 +93,23 @@ nav a {
 
 #susanochkim {
     display: flex;
-    position: absolute;
-    top: 15%;
-    left: 25%;
-    width: 40%;
-    height: 80%;
+    position: relative;
+    float: left;
+    top: 18%;
+    left: 14%;
+    width: 30%;
+    height: 75%;
+    border: 5px solid rgb(41, 27, 1);
+    border-radius: 35px;
+}
+
+#clinic1 {
+    display: flex;
+    position: relative;
+    top: 18%;
+    left: 27%;
+    width: 28%;
+    height: 28%;
     border: 5px solid rgb(41, 27, 1);
     border-radius: 35px;
 }
@@ -142,3 +152,5 @@ a:active {
     text-decoration: none;
     color:yellowgreen
 }
+        
+
