@@ -22,6 +22,16 @@ body {
     background-repeat: no-repeat;
 }
 
+h1 {
+    margin-bottom:0.2%;
+    text-align: center;
+    color: rgb(24, 137, 4);
+    font-weight: bolder;
+    text-shadow: 1.5px 1.5px wheat;
+    font-size: 3.25em;
+
+}
+
 p {
     background-image: url("../images/pexels-pixabay-301378.jpg");
     text-align: center;
@@ -33,7 +43,7 @@ p {
     width: 20%;
     height: 25%;
     max-height: min-content;
-    color:rgb(212, 145, 38);
+    color:yellowgreen;
     background-size: contain;
     overflow: hidden;
 }
