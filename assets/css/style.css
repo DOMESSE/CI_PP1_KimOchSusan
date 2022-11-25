@@ -50,7 +50,7 @@ h1 {
     float: right;
     font-size: 1.55em;
     bottom: 5%;
-    right: 18%;
+    right: 17%;
     width: 20%;
     height: 25%;
     margin-top: 25%;
@@ -60,6 +60,7 @@ h1 {
     background-size: contain;
     border-radius: 0.25em;
     border:2px solid rgb(41, 27, 1) ;
+    padding: 1.25%;
 }
 
 #logo {
