@@ -29,28 +29,49 @@ p {
     position: absolute;
     font-size: 1.55em;
     top: 40%;
-    left: 65%;
+    left: 66%;
     width: 20%;
     height: 25%;
     max-height: min-content;
     color:rgb(212, 145, 38);
     background-size: contain;
     overflow: hidden;
-    text-overflow: ellipsis;
-
 }
 
-p {
-    
+#logo {
+    position: absolute;
+    text-align: center;
+    top: 6%;
+    left: 12%;
+    width: 5%;
+    height: 5%;
+}
+
+p:hover {
+    overflow: visible;
+}
+
+#hoverprompt {
+    display: flex;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 71%;
+    width: 20%;
+    height: 25%;
+    color: rgb(24, 137, 4);
+    font-weight: bolder;
 }
 
 nav {
     /* Credit FWstudio, website is Pexels */
     background-image: url("../images/pexels-pixabay-301378.jpg");
-    margin-top: 2.5%;
+    margin-top: -0.6%;
     text-align: center;
     font-size: 2.5em;
     background-size: contain;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
 }
 
 nav a {
@@ -68,8 +89,8 @@ nav a {
     left: 25%;
     width: 40%;
     height: 80%;
-    border: 2px solid rgba(245, 222, 179, 0);
-    border-radius: 180px;
+    border: 5px solid rgb(41, 27, 1);
+    border-radius: 35px;
 }
 
 .galleryimage {
