@@ -42,7 +42,7 @@ h1 {
 
 }
 
-p {
+#welcometext {
     background-image: url("../images/pexels-pixabay-301378.jpg");
     text-align: center;
     display: flex;
