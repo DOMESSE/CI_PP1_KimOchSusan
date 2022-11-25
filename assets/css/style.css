@@ -74,7 +74,8 @@ p {
 nav {
     /* Credit FWstudio, website is Pexels */
     background-image: url("../images/composite.png");
-    margin-top: -0.6%;
+    margin-top: -0.42%;
+    display: relative;
     text-align: center;
     font-size: 2em;
     background-size: contain;
