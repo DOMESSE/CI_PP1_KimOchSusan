@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro');
 @media screen and (min-width: 375px) {
    
   }
@@ -13,34 +13,44 @@
 }
 
 body {
-    /* Credit Alessia Kozek, website is Pexels */
-    background-image: url("../images/Background.jpeg");
-    font-family: Arial,Helvetica,sans-serif;
+    /* Credit Eberhard Grossgasteiger, website is Pexels */
+    background-image: url("../images/newback.jpg");
+    background-color: rgb(25, 26, 28);
+    font-family: 'Crimson Pro',Helvetica,sans-serif;
     font-size: 1em;
     background-size: cover;
     background-repeat: no-repeat;
-    
 }
 
 p {
-    background-image: url("../images/woodgrain.jpeg");
+    background-image: url("../images/pexels-pixabay-301378.jpg");
     text-align: center;
     display: flex;
     position: absolute;
-    font-size: 1.5em;
+    font-size: 1.55em;
     top: 40%;
     left: 65%;
     width: 20%;
     height: 25%;
-    color:wheat
+    max-height: min-content;
+    color:rgb(212, 145, 38);
+    background-size: contain;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+p {
+    
 }
 
 nav {
     /* Credit FWstudio, website is Pexels */
-    background-image: url("../images/woodgrain.jpeg");
+    background-image: url("../images/pexels-pixabay-301378.jpg");
     margin-top: 2.5%;
     text-align: center;
     font-size: 2.5em;
+    background-size: contain;
 }
 
 nav a {
@@ -48,12 +58,18 @@ nav a {
 }
 
 .navlink:hover {
-    color:yellowgreen
+    color:olivedrab
 }
 
 #susanochkim {
-    max-width: 15%;
-    max-height: 10%;
+    display: flex;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    width: 40%;
+    height: 80%;
+    border: 2px solid rgba(245, 222, 179, 0);
+    border-radius: 180px;
 }
 
 .galleryimage {
@@ -77,20 +93,20 @@ nav a {
 
 a:link {
     text-decoration: none;
-    color:orange
+    color:yellowgreen
 }
 
 a:visited {
     text-decoration: none;
-    color:orange
+    color:yellowgreen
 }
 
 a:hover {
     text-decoration: none;
-    color:orange
+    color:yellowgreen
 }
 
 a:active {
     text-decoration: none;
-    color:orange
+    color:yellowgreen
 }
