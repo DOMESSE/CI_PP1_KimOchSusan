@@ -11,12 +11,6 @@
         display: block;
       }
 }
-@media screen and (min-width: 800px) {
-   
-}
-@media screen and (min-width: 1000px) {
-   
-}
 
 body {
     /* Credit Eberhard Grossgasteiger, website is Pexels */
@@ -160,7 +154,7 @@ a:active {
     position: relative;
     text-align: center;
     display: flex;
-    top: 90%;
+    top: 7em;
     left: 12%;
     width: 5%;
     height: 5%;
@@ -168,4 +162,15 @@ a:active {
     padding-top: 0.25em;
     padding-bottom: 0.25em;
     border-radius: 0.4em;
+}
+
+.infolink {
+    background-image: url("../images/pexels-pixabay-301378.jpg");
+    float: left;
+    display: flex;
+    position: relative;
+    top: 30%;
+    left: 45%;
+    width: 20%;
+    height: 25%;
 }
