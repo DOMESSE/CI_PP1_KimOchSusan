@@ -165,8 +165,7 @@ nav a {
 .galleryimagewide {
     display: inline;
     margin-top: 8em;
-    max-width: 36vw;
-    max-height: 17vh;
+    max-height: 28vh;
     margin-left: 12em;
     border: 5px solid rgb(41, 27, 1);
     border-radius: 2.1875em;
