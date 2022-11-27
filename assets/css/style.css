@@ -126,7 +126,7 @@ nav a {
     float: right;
     display: flex;
     position: absolute;
-    top: 42%;
+    top: 32%;
     right: 25%;
     width: 20%;
     height: 25%;
@@ -188,11 +188,16 @@ a:active {
 }
 
 #contactcontainer {
-    display: flex;
-    position: relative;
-    margin-top: 8em;
-    top:80%;
-    left: 35%;
-    width: 20%;
-    height: 25%;
+    display: inline;
+    position: absolute;
+    float: right;
+    bottom: 5%;
+    left: 54%;
+
+}
+
+.contactstuff {
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    color:yellowgreen;
 }
