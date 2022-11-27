@@ -14,7 +14,6 @@
         width: 10vw;
     }
   }
-
 @media screen and (min-width: 650px) {
     .navbar a {
         float: none;
@@ -30,7 +29,6 @@
         width: 15vw;
     }
 }
-
 @media screen and (min-width: 2500px) {
     #contactcontainer { font-size: 1.75em;}
     div { font-size: 1.75em;}
@@ -42,7 +40,6 @@
     #infoboard { font-size: 1.75em;}
     h1 { font-size: 1.75em;}
 }
-
 body {
     /* Credit Eberhard Grossgasteiger, website is Pexels */
     background-image: url("../images/newback.jpg");
@@ -52,22 +49,185 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
-h1 {
+nav {
+    /* Credit FWstudio, website is Pexels */
+    background-image: url("../images/composite.png");
+    position: absolute;
+    display: inline;
+    top: 0;
+    left: 0;
+    width: 100vw;
     text-align: center;
-    color: rgb(24, 137, 4);
+    font-size: 2em;
+    background-size: contain;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    border-radius: 0.4em;
+}
+form {
+    /* Credit FWstudio, website is Pexels */
+    background-image: url("../images/pexels-pixabay-301378.jpg");
+    display: inline;
+    position: absolute;
+    float: left;
+    bottom: 45vh;
+    right: 62vw;
+    color:yellowgreen;
+    padding: 2em;
+    font-size: 1.55em;
+    border-radius: 0.25em;
+    height: 20vh;
+    width: 20vw;
+    border:4px solid rgb(41, 27, 1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 1.5px 1.5px black;
+}
+input[type=submit] {
+    background-color: black;
+    border: none;
+    border-radius: 1em;
+    color: yellowgreen;
+    padding: 0.2em 0.2em;
+    cursor: pointer;
+}
+/* These make the links look less horrible*/
+a:link {
+    text-decoration: none;
+    color:yellowgreen
+}
+a:visited {
+    text-decoration: none;
+    color:yellowgreen
+}
+a:active {
+    text-decoration: none;
+    color:yellowgreen
+}
+nav a {
+    padding-right: 30px;
+}
+/* These make the links pop out more, so you can tell you can click on them*/
+.navlink:hover {
+    color:olivedrab
+}
+.infolink:hover {
+    color:olivedrab
+}
+.footerchild:hover {
+    color:olivedrab
+}
+/* These keep the images somewhat uniform with the way they were photographed, credit Moa Rönnbäck*/
+.galleryimagetall {
+    display: inline;
+    margin-top: 8em;
+    max-width: 17vw;
+    max-height: 34vh;
+    margin-left: 12em;
+    border: 5px solid rgb(41, 27, 1);
+    border-radius: 2.1875em;
+}
+.galleryimagewide {
+    display: inline;
+    margin-top: 8em;
+    max-height: 28vh;
+    margin-left: 12em;
+    border: 5px solid rgb(41, 27, 1);
+    border-radius: 2.1875em;
+}
+.infolink {
     display: flex;
     position: relative;
-    top: 13vh;
-    left: 48vw;
-    width: 50vw;
-    font-weight: bolder;
-    text-shadow: 1.5px 1.5px wheat;
-    font-size: 2.25em;
-
 }
-
+.contactstuff {
+    color:yellowgreen;
+}
+.formpart {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+.footerchild {
+    text-align: center;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+#googlemap {
+    float: right;
+    display: flex;
+    position: absolute;
+    top: 20vh;
+    right: 24.6vw;
+    width: 23vw;
+    height: 35vh;
+    border-radius: 0.5em;
+    border:4px solid rgb(41, 27, 1);
+}
+#susanochkim {
+    /* Credit Moa Rönnbäck*/
+    display: flex;
+    position: absolute;
+    float: left;
+    top: 14vh;
+    left: 14vw;
+    width: 30vw;
+    height: 75vh;
+    border: 5px solid rgb(41, 27, 1);
+    border-radius: 2.1875em;
+}
+#clinic1 {
+    /* Credit Moa Rönnbäck*/
+    display: flex;
+    position: absolute;
+    float: right;
+    top: 18vh;
+    right: 15vw;
+    width: 28vw;
+    height: 28vh;
+    border: 5px solid rgb(41, 27, 1);
+    border-radius: 2.1875em;
+}
+#contactcontainer {
+    display: inline;
+    position: absolute;
+    float: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 0.25em;
+    bottom: 10vh;
+    left: 54vw;
+    width: 23vw;
+    height: 35vh;
+    text-shadow: 1.5px 1.5px black;
+}      
+#foot {
+    /* Credit FWstudio, website is Pexels */
+    background-image: url("../images/composite.png");
+    position: absolute;
+    display: inline;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    text-align: center;
+    font-size: 2em;
+    background-size: contain;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    border-radius: 0.4em;
+}
+#storyboard {
+    float: left;
+    display: flex;
+    position: absolute;
+    font-size: 1.5em;
+    top: 23.3vh;
+    left: 16vw;
+    width: 20vw;
+    height: 25vh;
+    text-shadow: 1.5px 1.5px black;
+    color:yellowgreen;
+}
 #welcometext {
+    /* Credit FWstudio, website is Pexels */
     background-image: url("../images/pexels-pixabay-301378.jpg");
     text-align: center;
     display: flex;
@@ -87,123 +247,8 @@ h1 {
     border:4px solid rgb(41, 27, 1) ;
     padding: 1.25%;
 }
-
-#logo {
-    position: relative;
-    text-align: center;
-    display: flex;
-    top: 10vh;
-    left: 12vw;
-    width: 5vw;
-    height: 5vh;
-}
-
-nav {
-    /* Credit FWstudio, website is Pexels */
-    background-image: url("../images/composite.png");
-    position: absolute;
-    display: inline;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    text-align: center;
-    font-size: 2em;
-    background-size: contain;
-    padding-top: 0.25em;
-    padding-bottom: 0.25em;
-    border-radius: 0.4em;
-}
-
-nav a {
-    padding-right: 30px;
-}
-
-.navlink:hover {
-    color:olivedrab
-}
-
-.infolink:hover {
-    color:olivedrab
-}
-.footerchild:hover {
-    color:olivedrab
-}
-#susanochkim {
-    display: flex;
-    position: absolute;
-    float: left;
-    top: 14vh;
-    left: 14vw;
-    width: 30vw;
-    height: 75vh;
-    border: 5px solid rgb(41, 27, 1);
-    border-radius: 2.1875em;
-}
-
-#clinic1 {
-    display: flex;
-    position: absolute;
-    float: right;
-    top: 18vh;
-    right: 15vw;
-    width: 28vw;
-    height: 28vh;
-    border: 5px solid rgb(41, 27, 1);
-    border-radius: 2.1875em;
-}
-
-.galleryimagetall {
-    display: inline;
-    margin-top: 8em;
-    max-width: 17vw;
-    max-height: 34vh;
-    margin-left: 12em;
-    border: 5px solid rgb(41, 27, 1);
-    border-radius: 2.1875em;
-}
-
-.galleryimagewide {
-    display: inline;
-    margin-top: 8em;
-    max-height: 28vh;
-    margin-left: 12em;
-    border: 5px solid rgb(41, 27, 1);
-    border-radius: 2.1875em;
-}
-
-#googlemap {
-    float: right;
-    display: flex;
-    position: absolute;
-    top: 20vh;
-    right: 24.6vw;
-    width: 23vw;
-    height: 35vh;
-    border-radius: 0.5em;
-    border:4px solid rgb(41, 27, 1);
-}
-
-a:link {
-    text-decoration: none;
-    color:yellowgreen
-}
-
-a:visited {
-    text-decoration: none;
-    color:yellowgreen
-}
-
-a:hover {
-    text-decoration: none;
-    color:yellowgreen
-}
-
-a:active {
-    text-decoration: none;
-    color:yellowgreen
-}
-
 #infoboard {
+    /* Credit FWstudio, website is Pexels */
     background-image: url("../images/pexels-pixabay-301378.jpg");
     position: relative;
     text-align: center;
@@ -217,87 +262,5 @@ a:active {
     background-repeat: no-repeat;
     border:4px solid rgb(41, 27, 1);
     padding-left: 5vw;
-    padding-bottom: 10vh;
-}
-
-.infolink {
-    display: flex;
-    position: relative;
-}
-
-#storyboard {
-    float: left;
-    display: flex;
-    position: absolute;
-    font-size: 1.5em;
-    top: 23.3vh;
-    left: 16vw;
-    width: 20vw;
-    height: 25vh;
-    text-shadow: 1.5px 1.5px black;
-    color:yellowgreen;
-}
-
-#contactcontainer {
-    display: inline;
-    position: absolute;
-    float: right;
-    background-size: contain;
-    background-repeat: no-repeat;
-    border-radius: 0.25em;
-    bottom: 10vh;
-    left: 54vw;
-    width: 23vw;
-    height: 35vh;
-    text-shadow: 1.5px 1.5px black;
-}
-
-.contactstuff {
-    color:yellowgreen;
-}
-
-form {
-    background-image: url("../images/pexels-pixabay-301378.jpg");
-    display: inline;
-    position: absolute;
-    float: left;
-    bottom: 45vh;
-    right: 62vw;
-    color:yellowgreen;
-    padding: 2em;
-    font-size: 1.55em;
-    border-radius: 0.25em;
-    height: 20vh;
-    width: 20vw;
-    border:4px solid rgb(41, 27, 1);
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-shadow: 1.5px 1.5px black;
-}
-
-.formpart {
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-}
-
-        
-#foot {
-    background-image: url("../images/composite.png");
-    position: absolute;
-    display: inline;
-    bottom: 0;
-    left: 0;
-    width: 100vw;
-    text-align: center;
-    font-size: 2em;
-    background-size: contain;
-    padding-top: 0.25em;
-    padding-bottom: 0.25em;
-    border-radius: 0.4em;
-}
-
-.footerchild {
-    text-align: center;
-    padding-left: 0.5em;
-    padding-right: 0.5em;
+    padding-bottom: 8vh;
 }
