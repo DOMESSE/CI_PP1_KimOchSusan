@@ -32,7 +32,6 @@
 }
 
 @media screen and (min-width: 2500px) {
-    #welcometext { font-size: 1.75em;}
     #contactcontainer { font-size: 1.75em;}
     div { font-size: 1.75em;}
     ul { font-size: 1.75em;}
@@ -40,7 +39,6 @@
     nav { font-size: 1.75em;}
     #foot { font-size: 1.75em;}
     header { font-size: 1.75em;}
-    #storyboard { font-size: 1.75em;}
     #infoboard { font-size: 1.75em;}
     h1 { font-size: 1.75em;}
 }
