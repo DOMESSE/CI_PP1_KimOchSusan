@@ -126,7 +126,7 @@ nav a {
     display: flex;
     position: absolute;
     float: left;
-    top: 18vh;
+    top: 14vh;
     left: 14vw;
     width: 30%;
     height: 75%;
@@ -139,7 +139,7 @@ nav a {
     position: absolute;
     float: right;
     top: 18vh;
-    right: 27vw;
+    right: 15vw;
     width: 28%;
     height: 28%;
     border: 5px solid rgb(41, 27, 1);
