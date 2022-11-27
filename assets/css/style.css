@@ -126,8 +126,8 @@ nav a {
     float: right;
     display: flex;
     position: absolute;
-    top: 70%;
-    left: 45%;
+    top: 42%;
+    right: 25%;
     width: 20%;
     height: 25%;
 }
@@ -187,12 +187,12 @@ a:active {
     height: 25%;
 }
 
-.contactstuff {
-    float: left;
+#contactcontainer {
     display: flex;
     position: relative;
-    top: 98%;
-    right: 10%;
+    margin-top: 8em;
+    top:80%;
+    left: 35%;
     width: 20%;
     height: 25%;
 }
