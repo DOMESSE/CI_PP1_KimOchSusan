@@ -71,10 +71,10 @@ h1 {
     background-image: url("../images/pexels-pixabay-301378.jpg");
     text-align: center;
     display: flex;
-    position: relative;
+    position: absolute;
     float: right;
     font-size: 1.55em;
-    bottom: 5%;
+    bottom: 5vh;
     right: 17%;
     width: 20%;
     height: 25%;
@@ -124,10 +124,10 @@ nav a {
 
 #susanochkim {
     display: flex;
-    position: relative;
+    position: absolute;
     float: left;
-    top: 18%;
-    left: 14%;
+    top: 18vh;
+    left: 14vw;
     width: 30%;
     height: 75%;
     border: 5px solid rgb(41, 27, 1);
@@ -136,9 +136,10 @@ nav a {
 
 #clinic1 {
     display: flex;
-    position: relative;
-    top: 18%;
-    left: 27%;
+    position: absolute;
+    float: right;
+    top: 18vh;
+    right: 27vw;
     width: 28%;
     height: 28%;
     border: 5px solid rgb(41, 27, 1);
