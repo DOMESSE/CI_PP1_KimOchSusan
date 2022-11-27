@@ -58,7 +58,7 @@ h1 {
     color: rgb(24, 137, 4);
     display: flex;
     position: relative;
-    top: 9%;
+    top: 13%;
     left: 48%;
     width: 50%;
     font-weight: bolder;
@@ -101,8 +101,11 @@ h1 {
 nav {
     /* Credit FWstudio, website is Pexels */
     background-image: url("../images/composite.png");
-    margin-top: -0.42%;
-    display: relative;
+    position: absolute;
+    display: inline;
+    top: 0;
+    left: 0;
+    width: 100%;
     text-align: center;
     font-size: 2em;
     background-size: contain;
@@ -184,19 +187,6 @@ a:active {
     text-decoration: none;
     color:yellowgreen
 }
-        
-#foot {
-    position: relative;
-    text-align: center;
-    float: right;
-    display: absolute;
-    top: 98%;
-    right: 10%;
-    background-image: url("../images/composite.png");
-    padding-top: 0.25em;
-    padding-bottom: 0.25em;
-    border-radius: 0.4em;
-}
 
 #infoboard {
     background-image: url("../images/pexels-pixabay-301378.jpg");
@@ -276,4 +266,26 @@ form {
 .formpart {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+}
+
+        
+#foot {
+    background-image: url("../images/composite.png");
+    position: absolute;
+    display: inline;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    background-size: contain;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    border-radius: 0.4em;
+}
+
+.footerchild {
+    text-align: center;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
 }
