@@ -32,12 +32,16 @@
 }
 
 @media screen and (min-width: 2500px) {
-    p { font-size: 1.75em;}
+    #welcometext { font-size: 1.75em;}
+    #contactcontainer { font-size: 1.75em;}
     div { font-size: 1.75em;}
     ul { font-size: 1.75em;}
     label { font-size: 1.75em;}
     nav { font-size: 1.75em;}
-    footer { font-size: 1.75em;}
+    #foot { font-size: 1.75em;}
+    header { font-size: 1.75em;}
+    #storyboard { font-size: 1.75em;}
+    #infoboard { font-size: 1.75em;}
 }
 
 body {
