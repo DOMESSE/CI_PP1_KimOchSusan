@@ -152,10 +152,20 @@ nav a {
     border-radius: 2.1875em;
 }
 
-.galleryimage {
+.galleryimagetall {
     display: inline;
     margin-top: 8em;
     max-width: 17vw;
+    max-height: 34vh;
+    margin-left: 12em;
+    border: 5px solid rgb(41, 27, 1);
+    border-radius: 2.1875em;
+}
+
+.galleryimagewide {
+    display: inline;
+    margin-top: 8em;
+    max-width: 34vw;
     max-height: 17vh;
     margin-left: 12em;
     border: 5px solid rgb(41, 27, 1);
