@@ -107,7 +107,7 @@ The website consists of four separate pages:
 <img src="docs/wireframes/gallery.png">
 </details>
 <details><summary>About us</summary>
-<img src="docs/wireframes/about_us.PNG">
+<img src="docs/wireframes/about_us.png">
 </details>
 <details><summary>Contact us</summary>
 <img src="docs/wireframes/contact_us.png">
