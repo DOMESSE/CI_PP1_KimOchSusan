@@ -28,11 +28,11 @@
     3. [Accessibility](#accessibility)
     4. [Performance](#performance)
     5. [Device testing](#performing-tests-on-various-devices)
-    6. [Browser compatibility](#browser-compatability)
+    6. [Browser compatibility](#browser-compatibility)
 7. [Deployment](#deployment)
 8. [Credits](#credits)
 9. [Acknowledgements](#acknowledgements)
-10. [What would I've done differently](#acknowledgements)
+10. [What would I've done differently](#what-would-i've-dpme-differently)
 
 ## Project Goals 
 
@@ -232,7 +232,7 @@ The website was tested on the following devices:
 - Lenovo Legion (Laptop).
 - Iphone 5 SE.
 
-### Browser compatability
+### Browser compatibility
 - Google Chrome
 - Mozilla Firefox
 - Microsoft Egde
@@ -286,8 +286,8 @@ I would like to take the opportunity to thank:
 
 ## What would I've done differently
 
-- If I had done this project again, I would've worked a lot more on the responsiveness of the webpage.
+- If I had done this project again, I would've worked a lot more on the responsiveness of the webpage on different screen sizes.
 - I would've made and added a logo to the webpage and I would've added a specific icon for the website.
-- I would've made a more thorough readme, ex. bugs section, device testing, testing user stories, etc.
-- I would've learnt bootstrap and used it in the webpage.
+- I would've made a more thorough readme, ex. bugs section, more device testing, testing user stories, etc.
+- I would've tried out bootstrap.
 - I'd have ordered the CSS rulings better from the very beginning.
