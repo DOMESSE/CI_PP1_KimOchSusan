@@ -233,9 +233,9 @@ The website was tested on the following devices:
 - Iphone 5 SE.
 
 ### Browser compatibility
-- Google Chrome
-- Mozilla Firefox
-- Microsoft Egde
+- Google Chrome.
+- Mozilla Firefox.
+- Microsoft Edge.
 
 ## Deployment
 The website was deployed using GitHub Pages by following these steps:
