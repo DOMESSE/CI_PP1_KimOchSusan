@@ -10,11 +10,11 @@
     2. [Site Owner Goals](#site-owner-goals)
 2. [User Experience](#user-experience)
     1. [Target Audience](#target-audience)
-    2. [User Requrements and Expectations](#user-requrements-and-expectations)
+    2. [User Requirements and Expectations](#user-requrements-and-expectations)
     3. [User Stories](#user-stories)
 3. [Design](#design)
     1. [Design Choices](#design-choices)
-    2. [Colour](#colours)
+    2. [Color](#colours)
     3. [Fonts](#fonts)
     4. [Structure](#structure)
     5. [Wireframes](#wireframes)
@@ -29,10 +29,10 @@
     4. [Performance](#performance)
     5. [Device testing](#performing-tests-on-various-devices)
     6. [Browser compatibility](#browser-compatability)
-    7. [Testing user stories](#testing-user-stories)
-8. [Deployment](#deployment)
-9. [Credits](#credits)
-10. [Acknowledgements](#acknowledgements)
+7. [Deployment](#deployment)
+8. [Credits](#credits)
+9. [Acknowledgements](#acknowledgements)
+10. [What would I've done differently](#acknowledgements)
 
 ## Project Goals 
 
@@ -68,17 +68,13 @@
 
 ### User Stories
 
-#### New User 
-1. I want to see a clear homepage that doesn't overwhelm me
-2. I want to feel uplifted when I arrive at the different sections
-3. I want to easily understand what the page and the people behind it are about
-4. I want to navigate easily and quickly through the page
-5. I wanna peek at the inside of their clinic
-
-#### Experienced User
-6. I want to quickly arrive at the different sections of the webpage
-7. I want to be able to access the contact information quickly
-8. I want to be able to dive a little bit deeper on what each therapy type entails
+1. I want to see a clear homepage that doesn't overwhelm me.
+2. I want to feel warm and positive emotions when looking at the webpage.
+3. I want to easily understand what the page and the people behind it are about.
+4. I want to navigate easily and quickly through the page.
+5. I wanna peek at the inside of their clinic.
+6. I want to access contact information.
+7. I want to dive a little bit deeper on what each therapy type entails.
 
 ## Design
 
@@ -137,79 +133,82 @@ The page consists of four pages and nine features
 - The navbar is fully responsive and becomes vertical when the screen size is small enough.
 - The links have a nice highlight to show what you are hovering over, makes it easier to understand that they are interactive links.
 
-![navbar](docs/features/navbar.jpg)
+![navbar](docs/features/navbar.png)
 
 ### Home Page
 - Allowes users to see what meal-deal is available for the upcoming Sunday
 - User stories covered: 5
 
-![Home-Page](docs/features/homepage.jpg)
+![Home-Page](docs/features/homepage.png)
 
 ### Footer
 - Featured on all four pages.
 - It also contains links to the business owners social media.
 - User stories covered: 1, 6, 7, 10, 15
 
-![Footer](docs/features/footer.jpg)
+![Footer](docs/features/footer.png)
 
 ### About Us
 - Gives a description of the restaurant and its facilities with a image of the front of the building on the right side
 - User stories covered: 3, 14
 
-![About Us](docs/features/about_us.jpg)
+![About Us](docs/features/about_us.png)
 
 ### Contact us
 - Features a few reviews left by the restaurants customers on social media
 - User stories covered: 3
 
-![Contact us](docs/features/contact_us.jpg)
+![Contact us](docs/features/contact_us.png)
 
 ### Gallery
 - Imagery of the restaurant arranged in a grid
 - User stories covered: 4
 
-![Gallery](docs/features/gallery.jpg)
+![Gallery](docs/features/gallery.png)
 
 ### Contact Form
 - A way for user to provide feedback
 - User stories covered: 9, 15
 
-![Contact Form](docs/features/contact_form.jpg)
+![Contact Form](docs/features/contact_form.png)
 
 ### Map
 - There is an iFrame with the business physical location.
 - User stories covered: 1, 12
 
-![Map](docs/features/googlemap.jpg)
+![Map](docs/features/googlemap.png)
 
 ### Treatment Info board
 - Provides the user with information about the restaurant including address, phone number, email, and the name of the owner
 - User stories covered: 7, 15
 
-![Info Box](docs/features/info_board.jpg)
+![Info Box](docs/features/info_board.png)
 
 ## Validation
 
 ### HTML Validation
 The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors and no warnings.
 <details><summary>Home</summary>
-<img src="docs/validation/validation-html-index.jpg">
+<img src="docs/validation/validate_html_index.png">
 </details>
 <details><summary>Gallery</summary>
-<img src="docs/validation/validation-html-about.jpg">
+<img src="docs/validation/validate_html_gallery.png">
 </details>
 <details><summary>About us</summary>
-<img src="docs/validation/validation-html-about.jpg">
+<img src="docs/validation/validate_html_about.png">
 </details>
 <details><summary>Contact us</summary>
-<img src="docs/validation/validation-html-about.jpg">
+<img src="docs/validation/validate_html_contact.png">
 </details>
 
 ### CSS Validation
 The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
 No errors
-<details><summary>whole page</summary>
-<img src="docs/validation/validation-css-whole-page.png">
+<details><summary>direct input</summary>
+<img src="docs/validation/css_1.png">
+</details>
+<details><summary>result</summary>
+<img src="docs/validation/css_2.png">
 </details>
 
 ### Accessibility
@@ -279,7 +278,13 @@ I would like to take the opportunity to thank:
 - Mr Mo Shami, my mentor, for his feedback, support and great attitude despite my challenges.
 - My friend David Caro Claromonte for helping me out when I got stuck with something, explaining iFrames to me, and overall feedback.
 - Susan Rönnbäck and Joacim Österholm for the website idea, they are the owners of the clinic.
-- Mo Shami's old students, who I learned a lot from.
+- Mo Shami's old students, who I learned immensely from.
 - Font-awesome for the icons I used in my website.
-- FWstudio for the texture of wood I use everywhere.
-- Eberhard grossgasteiger for my background forest.
+
+## What would I've done differently
+
+- If I had done this project again, I would've worked a lot more on the responsiveness of the webpage.
+- I would've made and added a logo to the webpage and I would've added a specific icon for the website.
+- I would've made a more thorough readme, ex. bugs section, device testing, testing user stories, etc.
+- I would've learnt bootstrap and used it in the webpage.
+- I'd have ordered the CSS rulings better from the very beginning.
