@@ -27,20 +27,18 @@
         </div>
         <form method="POST" action="https://formdump.codeinstitute.net/">
             <div class="formpart">
-                <label> Email</label>
-                <input type="text" required>
-                <input type="submit" value="Submit">
+                <label for="email"> Email</label>
+                <input type="text" id="email" name="email" required>
             </div>
             <div class="formpart">
-                <label> Password</label>
-                <input type="text" required>
-                <input type="submit" value="Submit">
+                <label for="password"> Password</label>
+                <input type="text" id="password" name="password" required>
             </div>
             <div class="formpart">
-                <label> Feedback</label>
-                <input type="text" required>
-                <input type="submit" value="Submit">
+                <label for="feedback"> Feedback</label>
+                <input type="text" id="feedback" name="feedback" required>
             </div>
+            <button type="submit">Submit</button>
         </form>
         <!-- Special thanks David Caro Claromonte for explaining how to the iFrame to me-->
         <iframe src="https://maps.google.com/maps?q=Carl%C3%A9ns%20v%C3%A4g%2012A&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=&amp;output=embed" id="googlemap"></iframe>
