@@ -71,10 +71,12 @@
 1. I want to see a clear homepage that doesn't overwhelm me.
 2. I want to feel warm and positive emotions when looking at the webpage.
 3. I want to easily understand what the page and the people behind it are about.
-4. I want to navigate easily and quickly through the page.
+4. I want to navigate easily and quickly through the pages.
 5. I wanna peek at the inside of their clinic.
 6. I want to access contact information.
 7. I want to dive a little bit deeper on what each therapy type entails.
+8. I want to know where the business is located
+9. I want to provide my information so the business owners can contact me
 
 ## Design
 
@@ -105,7 +107,7 @@ The website consists of four separate pages:
 <img src="docs/wireframes/gallery.png">
 </details>
 <details><summary>About us</summary>
-<img src="docs/wireframes/about_us.png">
+<img src="docs/wireframes/about_us.PNG">
 </details>
 <details><summary>Contact us</summary>
 <img src="docs/wireframes/contact_us.png">
@@ -132,55 +134,56 @@ The page consists of four pages and nine features
 - Featured on all four pages.
 - The navbar is fully responsive and becomes vertical when the screen size is small enough.
 - The links have a nice highlight to show what you are hovering over, makes it easier to understand that they are interactive links.
+- User stories covered: 4
 
 ![navbar](docs/features/navbar.png)
 
 ### Home Page
 - Allowes users to see what meal-deal is available for the upcoming Sunday
-- User stories covered: 5
+- User stories covered: 1, 2
 
 ![Home-Page](docs/features/homepage.png)
 
 ### Footer
 - Featured on all four pages.
 - It also contains links to the business owners social media.
-- User stories covered: 1, 6, 7, 10, 15
+- User stories covered: 3
 
 ![Footer](docs/features/footer.png)
 
 ### About Us
 - Gives a description of the restaurant and its facilities with a image of the front of the building on the right side
-- User stories covered: 3, 14
+- User stories covered: 3
 
 ![About Us](docs/features/about_us.png)
 
 ### Contact us
 - Features a few reviews left by the restaurants customers on social media
-- User stories covered: 3
+- User stories covered: 6
 
 ![Contact us](docs/features/contact_us.png)
 
 ### Gallery
 - Imagery of the restaurant arranged in a grid
-- User stories covered: 4
+- User stories covered: 5
 
 ![Gallery](docs/features/gallery.png)
 
 ### Contact Form
 - A way for user to provide feedback
-- User stories covered: 9, 15
+- User stories covered: 9
 
 ![Contact Form](docs/features/contact_form.png)
 
 ### Map
 - There is an iFrame with the business physical location.
-- User stories covered: 1, 12
+- User stories covered: 8
 
 ![Map](docs/features/googlemap.png)
 
 ### Treatment Info board
 - Provides the user with information about the restaurant including address, phone number, email, and the name of the owner
-- User stories covered: 7, 15
+- User stories covered: 7
 
 ![Info Box](docs/features/info_board.png)
 
