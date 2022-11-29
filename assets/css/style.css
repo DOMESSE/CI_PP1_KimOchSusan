@@ -89,7 +89,8 @@
         width: 15vw;
     }
 }
-@media (max-width: 2500px) {
+@media (min-width: 3000px) {
+    #welcometext  { font-size: 1.75em;}
     #contactcontainer { font-size: 1.75em;}
     div { font-size: 1.75em;}
     ul { font-size: 1.75em;}
@@ -99,6 +100,7 @@
     header { font-size: 1.75em;}
     #infoboard { font-size: 1.75em;}
     h1 { font-size: 1.75em;}
+    #storyboard  { font-size: 1.75em;}
 }
 body {
     /* Credit Eberhard Grossgasteiger, website is Pexels */
@@ -143,7 +145,7 @@ form {
     background-repeat: no-repeat;
     text-shadow: 1.5px 1.5px black;
 }
-button[type=submit] {
+button {
     background-color: black;
     border: none;
     border-radius: 1em;
