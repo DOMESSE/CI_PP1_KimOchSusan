@@ -192,39 +192,39 @@ The page consists of four pages and nine features
 ### HTML Validation
 The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors and no warnings.
 <details><summary>Home</summary>
-<img src="docs/validation/validate_html_index.png">
+<img src="docs/validation/html-validation/validate_html_index.png">
 </details>
 <details><summary>Gallery</summary>
-<img src="docs/validation/validate_html_gallery.png">
+<img src="docs/validation/html-validation/validate_html_gallery.png">
 </details>
 <details><summary>About us</summary>
-<img src="docs/validation/validate_html_about.png">
+<img src="docs/validation/html-validation/validate_html_about.png">
 </details>
 <details><summary>Contact us</summary>
-<img src="docs/validation/validate_html_contact.png">
+<img src="docs/validation/html-validation/validate_html_contact.png">
 </details>
 
 ### CSS Validation
 The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
 No errors
-<details><summary>direct input</summary>
-<img src="docs/validation/css_1.png">
+<details><summary>Direct input</summary>
+<img src="docs/validation/css-validation/css_1.png">
 </details>
-<details><summary>result</summary>
-<img src="docs/validation/css_2.png">
+<details><summary>Result</summary>
+<img src="docs/validation/css-validation/css_2.png">
 </details>
 
 ### Accessibility
 WAVE Web Accessibility Evaluation Tools was used to check accesibility. No errors.
-<details><summary>Home</summary>
-<img src="docs/validation/accessibility_test.png">
+<details><summary>Accessibility</summary>
+<img src="docs/validation/accessibility/accessibility_test.png">
 </details>
 
 ### Performance 
 Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. 
 
-<details><summary>Home</summary>
-<img src="docs/validation/performance_lightouse.png">
+<details><summary>Performance</summary>
+<img src="docs/validation/lighthouse-performance/performance_lighthouse.png">
 </details>
 
 ### Performing tests on various devices 
